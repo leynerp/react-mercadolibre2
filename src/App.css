@@ -1,0 +1,50 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  width: 100%;
+}
+
+.products{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+  align-content: center;
+  gap: 30px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.products img {
+  border-radius: 8px;
+  margin-top: 16px;
+  padding-left: 50px;
+}
+aside{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1px;
+}
+menu ul,li {margin: 0; list-style:none;}
+menu li { line-height:180%;}
+
+li button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.2em 0.9em;
+  font-size: 0.8em;
+  font-weight: 500;
+
+}
+menu button:hover {
+  border-color: #646cff;
+}
+ ul {margin: 5px;}
+
